@@ -4,7 +4,7 @@ var websocket = require("ws");
 var cookies = require("cookie-parser");
 // hope this worksS
 var indexRouter = require("./routes/index");
-var port = process.argv[2];
+var port = 443;
 var app = express();
 
 var counter = 0;
