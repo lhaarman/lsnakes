@@ -19,7 +19,7 @@ app.use(express.static(__dirname + "/public"));
 
 var server = http.createServer(app);
 
-server.listen(.listen(process.env.PORT || port));
+server.listen(port);
 
 const wss = new websocket.Server({ server});
 
