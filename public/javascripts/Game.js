@@ -8,7 +8,7 @@ var player;
 var isMyTurn = false;
 var ID;
 var isOver = false;
-var socket = new WebSocket("ws://localhost:3000");
+var socket = new WebSocket("ws://tinysnl.herokuapp.com/");
 var currentP = 1;
 var screen = document.getElementById("body");
 var FSButton = document.getElementById("fsbutton");
